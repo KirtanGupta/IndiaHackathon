@@ -1,0 +1,3 @@
+sender,subject,body,label
+alerts@bank.com,Verify your account,Urgent action required to verify your password,phishing
+team@example.com,Weekly update,Project notes for this week,benign
