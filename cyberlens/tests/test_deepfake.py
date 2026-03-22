@@ -1,6 +1,7 @@
-from models.deepfake_detector import DeepfakeDetector
+from backend.risk_scorer import score_deepfake
 
 
-def test_video_is_marked_as_more_suspicious():
-    result = DeepfakeDetector().predict("sample.mp4")
-    assert result["label"] == "suspected-deepfake"
+def test_video_review_scores_higher_than_audio():
+    audio = score_deepfake("audio")
+    video = score_deepfake("video")
+    assert video["score"] > audio["score"]

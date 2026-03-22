@@ -15,3 +15,13 @@ export async function scan(payload) {
 
   return response.json();
 }
+
+export async function fetchRoadmap() {
+  const response = await fetch(`${API_BASE_URL}/roadmap`);
+
+  if (!response.ok) {
+    throw new Error("Roadmap request failed");
+  }
+
+  return response.json();
+}

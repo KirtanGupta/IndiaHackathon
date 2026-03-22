@@ -1,3 +1,17 @@
 sender,subject,body,label
 alerts@bank.com,Verify your account,Urgent action required to verify your password,phishing
+support@wallet-check.com,Account suspended,Your wallet access is suspended until you confirm your login,phishing
+security@paypaI-alerts.com,Security notice,Confirm your identity and reset your password immediately,phishing
+ops@company-support.net,Payroll update,Open the secure payroll portal and verify your employee credentials,phishing
+service@reward-center.biz,Claim your reward,Free gift waiting click now to claim reward,phishing
+mailer@shopper-win.net,Limited prize,You have won a prize verify card details now,phishing
+it-helpdesk@corp-mail.net,Mailbox warning,Mailbox is full and will be disabled unless you login now,phishing
+admin@document-share.io,Shared file alert,Review the attached secure document and sign in to continue,phishing
 team@example.com,Weekly update,Project notes for this week,benign
+hr@example.com,Interview schedule,Please find your interview schedule for next week,benign
+news@community.org,Monthly newsletter,Highlights from the community this month,benign
+finance@example.com,Invoice processed,Your reimbursement has been processed successfully,benign
+support@saas.io,Password changed,This is a confirmation that your password was changed,benign
+noreply@travel.com,Trip receipt,Your travel booking receipt is attached,benign
+teacher@college.edu,Assignment reminder,Submit the assignment by Friday evening,benign
+alerts@weather.in,Weather update,Rainfall warning in your district for tomorrow,benign

@@ -1,19 +1,31 @@
 # CyberLens
 
-CyberLens is a starter full-stack cybersecurity demo that estimates risk from email text, URLs, and media indicators.
+CyberLens is a phased full-stack cybersecurity demo for hackathon judging. The implementation and demo order intentionally match the product flow:
 
-## Structure
+1. Email phishing detection
+2. Suspicious URL detection
+3. Deepfake media detection
 
-- `backend/`: FastAPI service with a demo `/scan` endpoint
-- `frontend/`: Vite app config and deployment scripts
-- `src/`: React app entrypoint and page layout
-- `components/`: Reusable visual components
-- `api/`: Frontend API helper
-- `models/`: Placeholder model wrappers
-- `training/`: Starter training scripts
-- `tests/`: Backend smoke tests
+## Why The Structure Matters
 
-## Run Backend
+Each layer depends on the previous one. The backend must exist before model inference can be wired in, explainability must exist before the frontend can visualize it, and deployment only happens after the local flow is stable.
+
+See [BUILD_PLAN.md](./BUILD_PLAN.md) for the working order.
+
+## Current Structure
+
+- `backend/`: FastAPI API and risk orchestration
+- `frontend/`: Vite config for local and hosted builds
+- `src/`: React app shell and phase-driven page flow
+- `components/`: UI blocks for inputs, results, and logs
+- `api/`: Frontend API requests
+- `models/`: Placeholder model wrappers until trained artifacts are integrated
+- `training/`: Training script entry points
+- `tests/`: Smoke tests for scoring logic and model wrappers
+
+## Local Run
+
+### Backend
 
 ```bash
 cd cyberlens/backend
@@ -21,7 +33,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-## Run Frontend
+### Frontend
 
 ```bash
 cd cyberlens/frontend
@@ -29,4 +41,4 @@ npm install
 npm run dev
 ```
 
-The frontend defaults to `http://localhost:8000` for API calls.
+The frontend expects `VITE_API_BASE_URL=http://localhost:8000`.

@@ -3,10 +3,10 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 from explainer import explain_scan
-from risk_scorer import classify_severity, compute_risk_score
+from risk_scorer import compute_phase_scan
 
 
-app = FastAPI(title="CyberLens API", version="0.1.0")
+app = FastAPI(title="CyberLens API", version="0.3.0")
 
 app.add_middleware(
     CORSMiddleware,
@@ -18,6 +18,7 @@ app.add_middleware(
 
 
 class ScanRequest(BaseModel):
+    active_phase: str = Field(default="email")
     email_text: str = ""
     url: str = ""
     media_type: str = Field(default="audio")
@@ -25,19 +26,34 @@ class ScanRequest(BaseModel):
 
 @app.get("/health")
 def health() -> dict:
-    return {"status": "ok"}
+    return {"status": "ok", "project": "CyberLens"}
+
+
+@app.get("/roadmap")
+def roadmap() -> dict:
+    return {
+        "phases": [
+            "foundation",
+            "api",
+            "training",
+            "explainability",
+            "frontend-demo",
+            "testing",
+            "deployment",
+        ],
+        "demo_order": ["email", "url", "deepfake"],
+    }
 
 
 @app.post("/scan")
 def scan(payload: ScanRequest) -> dict:
-    score = compute_risk_score(payload.email_text, payload.url, payload.media_type)
-    severity = classify_severity(score)
-    explanation = explain_scan(payload.email_text, payload.url, score, severity)
+    result = compute_phase_scan(payload.email_text, payload.url, payload.media_type, payload.active_phase)
+    explanation = explain_scan(result)
 
     return {
-        "score": score,
-        "severity": severity,
-        "explanation": explanation,
+        **result,
+        "explanation": explanation["overall"],
+        "module_explanations": explanation["modules"],
         "signals": {
             "email_length": len(payload.email_text),
             "url_present": bool(payload.url),
