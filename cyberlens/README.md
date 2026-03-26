@@ -42,3 +42,13 @@ npm run dev
 ```
 
 The frontend expects `VITE_API_BASE_URL=http://localhost:8000`.
+
+## Phishing Model
+
+```bash
+python cyberlens/training/generate_phishing_dataset.py
+python cyberlens/training/train_phishing.py
+python cyberlens/training/evaluate_phishing.py
+```
+
+The evaluation script prints held-out accuracy, confusion matrix, class metrics, and a few example predictions.

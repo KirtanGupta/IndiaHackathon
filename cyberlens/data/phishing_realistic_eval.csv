@@ -1,0 +1,41 @@
+sender,subject,body,label
+security@bank-mail.com,Action needed,We detected unusual activity on your account and need you to confirm your identity today,phishing
+support@hr-portal.co,Payroll verification,Please verify your employee login to release this month's salary update,phishing
+alerts@account-check.net,Mailbox warning,Your mailbox is over quota and will be disabled unless you sign in now,phishing
+billing@stream-renewal.co,Payment failed,Update your billing details immediately to avoid service interruption,phishing
+service@courier-status.net,Package held,Your parcel is on hold and needs address confirmation using the secure form,phishing
+admin@sharedocs-secure.com,Shared document,Open the protected document and sign in with your work email to continue,phishing
+notice@tax-refund-gov.net,Tax refund pending,Claim your refund by verifying your card details through the attached link,phishing
+alerts@campus-helpdesk.net,Student portal issue,Your portal access will be suspended within 24 hours unless you reset your password,phishing
+security@wallet-team.co,Wallet verification,KYC review is pending so confirm your identity and upload details now,phishing
+noreply@cloud-storage-help.com,Storage alert,We blocked unusual activity and need your credentials to restore access,phishing
+ops@company-benefits.co,Benefits enrollment,Review the benefits update in the attached file and log in to approve changes,phishing
+rewards@brand-offers.net,Reward unlocked,You have won a shopping reward and must confirm payment details to receive it,phishing
+security@bank-mail.com,Fraud notice,We noticed suspicious sign in behavior and need you to verify your account immediately,phishing
+helpdesk@office365-reset.co,Password expiration,Your password expires today so click the secure link below to keep access,phishing
+billing@loan-update.net,EMI reminder,To avoid penalties please confirm your bank login and payment profile now,phishing
+it-support@workspace-alerts.co,VPN access issue,Remote access is blocked until you validate your credentials today,phishing
+alerts@upi-check.net,UPI verification,We placed your UPI ID on hold and require card confirmation to reactivate it,phishing
+notice@internship-portal.co,Offer letter attached,Download your internship letter and sign in with your password to view it,phishing
+support@travel-refund-help.net,Refund processing,Your refund is ready but we need account verification before release,phishing
+verify@merchant-payments.co,Invoice mismatch,Please review the invoice discrepancy and confirm your account information,phishing
+team@example.com,Weekly project update,Please review the sprint notes before tomorrow's standup,benign
+hr@example.com,Interview schedule,Your interview is confirmed for Monday at 11 AM in the main office,benign
+finance@example.com,Expense reimbursement,Your reimbursement has been processed and should reach your bank in two days,benign
+noreply@travel.com,Trip receipt,Your flight receipt and hotel invoice are attached for your records,benign
+teacher@college.edu,Assignment reminder,Submit the database assignment by Friday evening on the portal,benign
+alerts@weather.in,Weather advisory,Heavy rainfall is expected tomorrow afternoon in your district,benign
+support@saas.io,Password changed,This is a confirmation that your password was changed from account settings,benign
+community@events.org,Registration confirmed,Your seat is reserved for the startup workshop this Saturday,benign
+admin@workspace.io,Workspace summary,Here is your monthly workspace activity summary and storage usage,benign
+noreply@bank.com,Transaction alert,A debit card transaction of 550 INR was completed at City Mart,benign
+teamlead@company.com,Meeting rescheduled,The product review meeting has moved to 4 PM today,benign
+library@college.edu,Book return reminder,Please return the borrowed networking book by next Wednesday,benign
+support@ecommerce.com,Order delivered,Your package was delivered today and the invoice is available in the app,benign
+finance@company.org,Payslip available,Your payslip for March is available on the employee self-service portal,benign
+it@office.local,Maintenance notice,VPN access may be intermittent tonight due to scheduled maintenance,benign
+studentservices@college.edu,Exam timetable,The updated exam timetable has been published for semester four,benign
+organizer@hackfest.in,Volunteer briefing,Please join the volunteer briefing call at 6 PM this evening,benign
+healthcare@clinic.org,Appointment reminder,This is a reminder for your appointment tomorrow at 9:30 AM,benign
+support@cloudapp.com,Invoice paid,We received your subscription payment successfully and no further action is needed,benign
+newsletter@community.org,Monthly newsletter,Highlights from this month are included in the attached newsletter,benign

@@ -1,17 +1,601 @@
 sender,subject,body,label
-alerts@bank.com,Verify your account,Urgent action required to verify your password,phishing
-support@wallet-check.com,Account suspended,Your wallet access is suspended until you confirm your login,phishing
-security@paypaI-alerts.com,Security notice,Confirm your identity and reset your password immediately,phishing
-ops@company-support.net,Payroll update,Open the secure payroll portal and verify your employee credentials,phishing
-service@reward-center.biz,Claim your reward,Free gift waiting click now to claim reward,phishing
-mailer@shopper-win.net,Limited prize,You have won a prize verify card details now,phishing
-it-helpdesk@corp-mail.net,Mailbox warning,Mailbox is full and will be disabled unless you login now,phishing
-admin@document-share.io,Shared file alert,Review the attached secure document and sign in to continue,phishing
-team@example.com,Weekly update,Project notes for this week,benign
-hr@example.com,Interview schedule,Please find your interview schedule for next week,benign
-news@community.org,Monthly newsletter,Highlights from the community this month,benign
-finance@example.com,Invoice processed,Your reimbursement has been processed successfully,benign
-support@saas.io,Password changed,This is a confirmation that your password was changed,benign
-noreply@travel.com,Trip receipt,Your travel booking receipt is attached,benign
-teacher@college.edu,Assignment reminder,Submit the assignment by Friday evening,benign
-alerts@weather.in,Weather update,Rainfall warning in your district for tomorrow,benign
+alerts@bank-secure.com,Verify your account now,Urgent action required to verify your password using the secure link below,phishing
+alerts@bank-secure.com,Verify your account now,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+alerts@bank-secure.com,Verify your account now,We detected unusual activity and need you to confirm your identity immediately,phishing
+alerts@bank-secure.com,Verify your account now,Click the secure portal to avoid permanent account closure and restore service,phishing
+alerts@bank-secure.com,Verify your account now,You have won a prize and must verify card details now to receive it,phishing
+alerts@bank-secure.com,Verify your account now,Open the attached document and sign in to review the protected file,phishing
+alerts@bank-secure.com,Verify your account now,Your payroll record is pending and requires employee credentials for release,phishing
+alerts@bank-secure.com,Verify your account now,Update your banking profile now to remove the temporary suspension on your account,phishing
+alerts@bank-secure.com,Verify your account now,Validate your mailbox password now or your messages will be deleted today,phishing
+alerts@bank-secure.com,Verify your account now,Confirm your invoice information and login to prevent a service interruption,phishing
+alerts@bank-secure.com,Account suspended notice,Urgent action required to verify your password using the secure link below,phishing
+alerts@bank-secure.com,Account suspended notice,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+alerts@bank-secure.com,Account suspended notice,We detected unusual activity and need you to confirm your identity immediately,phishing
+alerts@bank-secure.com,Account suspended notice,Click the secure portal to avoid permanent account closure and restore service,phishing
+alerts@bank-secure.com,Account suspended notice,You have won a prize and must verify card details now to receive it,phishing
+alerts@bank-secure.com,Account suspended notice,Open the attached document and sign in to review the protected file,phishing
+alerts@bank-secure.com,Account suspended notice,Your payroll record is pending and requires employee credentials for release,phishing
+alerts@bank-secure.com,Account suspended notice,Update your banking profile now to remove the temporary suspension on your account,phishing
+alerts@bank-secure.com,Account suspended notice,Validate your mailbox password now or your messages will be deleted today,phishing
+alerts@bank-secure.com,Account suspended notice,Confirm your invoice information and login to prevent a service interruption,phishing
+alerts@bank-secure.com,Security alert on your profile,Urgent action required to verify your password using the secure link below,phishing
+alerts@bank-secure.com,Security alert on your profile,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+alerts@bank-secure.com,Security alert on your profile,We detected unusual activity and need you to confirm your identity immediately,phishing
+alerts@bank-secure.com,Security alert on your profile,Click the secure portal to avoid permanent account closure and restore service,phishing
+alerts@bank-secure.com,Security alert on your profile,You have won a prize and must verify card details now to receive it,phishing
+alerts@bank-secure.com,Security alert on your profile,Open the attached document and sign in to review the protected file,phishing
+alerts@bank-secure.com,Security alert on your profile,Your payroll record is pending and requires employee credentials for release,phishing
+alerts@bank-secure.com,Security alert on your profile,Update your banking profile now to remove the temporary suspension on your account,phishing
+alerts@bank-secure.com,Security alert on your profile,Validate your mailbox password now or your messages will be deleted today,phishing
+alerts@bank-secure.com,Security alert on your profile,Confirm your invoice information and login to prevent a service interruption,phishing
+alerts@bank-secure.com,Mailbox storage exceeded,Urgent action required to verify your password using the secure link below,phishing
+alerts@bank-secure.com,Mailbox storage exceeded,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+alerts@bank-secure.com,Mailbox storage exceeded,We detected unusual activity and need you to confirm your identity immediately,phishing
+alerts@bank-secure.com,Mailbox storage exceeded,Click the secure portal to avoid permanent account closure and restore service,phishing
+alerts@bank-secure.com,Mailbox storage exceeded,You have won a prize and must verify card details now to receive it,phishing
+alerts@bank-secure.com,Mailbox storage exceeded,Open the attached document and sign in to review the protected file,phishing
+alerts@bank-secure.com,Mailbox storage exceeded,Your payroll record is pending and requires employee credentials for release,phishing
+alerts@bank-secure.com,Mailbox storage exceeded,Update your banking profile now to remove the temporary suspension on your account,phishing
+alerts@bank-secure.com,Mailbox storage exceeded,Validate your mailbox password now or your messages will be deleted today,phishing
+alerts@bank-secure.com,Mailbox storage exceeded,Confirm your invoice information and login to prevent a service interruption,phishing
+alerts@bank-secure.com,Claim your reward today,Urgent action required to verify your password using the secure link below,phishing
+alerts@bank-secure.com,Claim your reward today,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+alerts@bank-secure.com,Claim your reward today,We detected unusual activity and need you to confirm your identity immediately,phishing
+alerts@bank-secure.com,Claim your reward today,Click the secure portal to avoid permanent account closure and restore service,phishing
+alerts@bank-secure.com,Claim your reward today,You have won a prize and must verify card details now to receive it,phishing
+alerts@bank-secure.com,Claim your reward today,Open the attached document and sign in to review the protected file,phishing
+alerts@bank-secure.com,Claim your reward today,Your payroll record is pending and requires employee credentials for release,phishing
+alerts@bank-secure.com,Claim your reward today,Update your banking profile now to remove the temporary suspension on your account,phishing
+alerts@bank-secure.com,Claim your reward today,Validate your mailbox password now or your messages will be deleted today,phishing
+alerts@bank-secure.com,Claim your reward today,Confirm your invoice information and login to prevent a service interruption,phishing
+alerts@bank-secure.com,Payroll access verification,Urgent action required to verify your password using the secure link below,phishing
+alerts@bank-secure.com,Payroll access verification,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+alerts@bank-secure.com,Payroll access verification,We detected unusual activity and need you to confirm your identity immediately,phishing
+alerts@bank-secure.com,Payroll access verification,Click the secure portal to avoid permanent account closure and restore service,phishing
+alerts@bank-secure.com,Payroll access verification,You have won a prize and must verify card details now to receive it,phishing
+alerts@bank-secure.com,Payroll access verification,Open the attached document and sign in to review the protected file,phishing
+alerts@bank-secure.com,Payroll access verification,Your payroll record is pending and requires employee credentials for release,phishing
+alerts@bank-secure.com,Payroll access verification,Update your banking profile now to remove the temporary suspension on your account,phishing
+alerts@bank-secure.com,Payroll access verification,Validate your mailbox password now or your messages will be deleted today,phishing
+alerts@bank-secure.com,Payroll access verification,Confirm your invoice information and login to prevent a service interruption,phishing
+alerts@bank-secure.com,Reset your password immediately,Urgent action required to verify your password using the secure link below,phishing
+alerts@bank-secure.com,Reset your password immediately,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+alerts@bank-secure.com,Reset your password immediately,We detected unusual activity and need you to confirm your identity immediately,phishing
+alerts@bank-secure.com,Reset your password immediately,Click the secure portal to avoid permanent account closure and restore service,phishing
+alerts@bank-secure.com,Reset your password immediately,You have won a prize and must verify card details now to receive it,phishing
+alerts@bank-secure.com,Reset your password immediately,Open the attached document and sign in to review the protected file,phishing
+alerts@bank-secure.com,Reset your password immediately,Your payroll record is pending and requires employee credentials for release,phishing
+alerts@bank-secure.com,Reset your password immediately,Update your banking profile now to remove the temporary suspension on your account,phishing
+alerts@bank-secure.com,Reset your password immediately,Validate your mailbox password now or your messages will be deleted today,phishing
+alerts@bank-secure.com,Reset your password immediately,Confirm your invoice information and login to prevent a service interruption,phishing
+alerts@bank-secure.com,Unusual sign in attempt detected,Urgent action required to verify your password using the secure link below,phishing
+alerts@bank-secure.com,Unusual sign in attempt detected,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+alerts@bank-secure.com,Unusual sign in attempt detected,We detected unusual activity and need you to confirm your identity immediately,phishing
+alerts@bank-secure.com,Unusual sign in attempt detected,Click the secure portal to avoid permanent account closure and restore service,phishing
+alerts@bank-secure.com,Unusual sign in attempt detected,You have won a prize and must verify card details now to receive it,phishing
+alerts@bank-secure.com,Unusual sign in attempt detected,Open the attached document and sign in to review the protected file,phishing
+alerts@bank-secure.com,Unusual sign in attempt detected,Your payroll record is pending and requires employee credentials for release,phishing
+alerts@bank-secure.com,Unusual sign in attempt detected,Update your banking profile now to remove the temporary suspension on your account,phishing
+alerts@bank-secure.com,Unusual sign in attempt detected,Validate your mailbox password now or your messages will be deleted today,phishing
+alerts@bank-secure.com,Unusual sign in attempt detected,Confirm your invoice information and login to prevent a service interruption,phishing
+alerts@bank-secure.com,Invoice failed please confirm,Urgent action required to verify your password using the secure link below,phishing
+alerts@bank-secure.com,Invoice failed please confirm,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+alerts@bank-secure.com,Invoice failed please confirm,We detected unusual activity and need you to confirm your identity immediately,phishing
+alerts@bank-secure.com,Invoice failed please confirm,Click the secure portal to avoid permanent account closure and restore service,phishing
+alerts@bank-secure.com,Invoice failed please confirm,You have won a prize and must verify card details now to receive it,phishing
+alerts@bank-secure.com,Invoice failed please confirm,Open the attached document and sign in to review the protected file,phishing
+alerts@bank-secure.com,Invoice failed please confirm,Your payroll record is pending and requires employee credentials for release,phishing
+alerts@bank-secure.com,Invoice failed please confirm,Update your banking profile now to remove the temporary suspension on your account,phishing
+alerts@bank-secure.com,Invoice failed please confirm,Validate your mailbox password now or your messages will be deleted today,phishing
+alerts@bank-secure.com,Invoice failed please confirm,Confirm your invoice information and login to prevent a service interruption,phishing
+alerts@bank-secure.com,KYC update required today,Urgent action required to verify your password using the secure link below,phishing
+alerts@bank-secure.com,KYC update required today,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+alerts@bank-secure.com,KYC update required today,We detected unusual activity and need you to confirm your identity immediately,phishing
+alerts@bank-secure.com,KYC update required today,Click the secure portal to avoid permanent account closure and restore service,phishing
+alerts@bank-secure.com,KYC update required today,You have won a prize and must verify card details now to receive it,phishing
+alerts@bank-secure.com,KYC update required today,Open the attached document and sign in to review the protected file,phishing
+alerts@bank-secure.com,KYC update required today,Your payroll record is pending and requires employee credentials for release,phishing
+alerts@bank-secure.com,KYC update required today,Update your banking profile now to remove the temporary suspension on your account,phishing
+alerts@bank-secure.com,KYC update required today,Validate your mailbox password now or your messages will be deleted today,phishing
+alerts@bank-secure.com,KYC update required today,Confirm your invoice information and login to prevent a service interruption,phishing
+support@wallet-check.com,Verify your account now,Urgent action required to verify your password using the secure link below,phishing
+support@wallet-check.com,Verify your account now,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+support@wallet-check.com,Verify your account now,We detected unusual activity and need you to confirm your identity immediately,phishing
+support@wallet-check.com,Verify your account now,Click the secure portal to avoid permanent account closure and restore service,phishing
+support@wallet-check.com,Verify your account now,You have won a prize and must verify card details now to receive it,phishing
+support@wallet-check.com,Verify your account now,Open the attached document and sign in to review the protected file,phishing
+support@wallet-check.com,Verify your account now,Your payroll record is pending and requires employee credentials for release,phishing
+support@wallet-check.com,Verify your account now,Update your banking profile now to remove the temporary suspension on your account,phishing
+support@wallet-check.com,Verify your account now,Validate your mailbox password now or your messages will be deleted today,phishing
+support@wallet-check.com,Verify your account now,Confirm your invoice information and login to prevent a service interruption,phishing
+support@wallet-check.com,Account suspended notice,Urgent action required to verify your password using the secure link below,phishing
+support@wallet-check.com,Account suspended notice,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+support@wallet-check.com,Account suspended notice,We detected unusual activity and need you to confirm your identity immediately,phishing
+support@wallet-check.com,Account suspended notice,Click the secure portal to avoid permanent account closure and restore service,phishing
+support@wallet-check.com,Account suspended notice,You have won a prize and must verify card details now to receive it,phishing
+support@wallet-check.com,Account suspended notice,Open the attached document and sign in to review the protected file,phishing
+support@wallet-check.com,Account suspended notice,Your payroll record is pending and requires employee credentials for release,phishing
+support@wallet-check.com,Account suspended notice,Update your banking profile now to remove the temporary suspension on your account,phishing
+support@wallet-check.com,Account suspended notice,Validate your mailbox password now or your messages will be deleted today,phishing
+support@wallet-check.com,Account suspended notice,Confirm your invoice information and login to prevent a service interruption,phishing
+support@wallet-check.com,Security alert on your profile,Urgent action required to verify your password using the secure link below,phishing
+support@wallet-check.com,Security alert on your profile,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+support@wallet-check.com,Security alert on your profile,We detected unusual activity and need you to confirm your identity immediately,phishing
+support@wallet-check.com,Security alert on your profile,Click the secure portal to avoid permanent account closure and restore service,phishing
+support@wallet-check.com,Security alert on your profile,You have won a prize and must verify card details now to receive it,phishing
+support@wallet-check.com,Security alert on your profile,Open the attached document and sign in to review the protected file,phishing
+support@wallet-check.com,Security alert on your profile,Your payroll record is pending and requires employee credentials for release,phishing
+support@wallet-check.com,Security alert on your profile,Update your banking profile now to remove the temporary suspension on your account,phishing
+support@wallet-check.com,Security alert on your profile,Validate your mailbox password now or your messages will be deleted today,phishing
+support@wallet-check.com,Security alert on your profile,Confirm your invoice information and login to prevent a service interruption,phishing
+support@wallet-check.com,Mailbox storage exceeded,Urgent action required to verify your password using the secure link below,phishing
+support@wallet-check.com,Mailbox storage exceeded,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+support@wallet-check.com,Mailbox storage exceeded,We detected unusual activity and need you to confirm your identity immediately,phishing
+support@wallet-check.com,Mailbox storage exceeded,Click the secure portal to avoid permanent account closure and restore service,phishing
+support@wallet-check.com,Mailbox storage exceeded,You have won a prize and must verify card details now to receive it,phishing
+support@wallet-check.com,Mailbox storage exceeded,Open the attached document and sign in to review the protected file,phishing
+support@wallet-check.com,Mailbox storage exceeded,Your payroll record is pending and requires employee credentials for release,phishing
+support@wallet-check.com,Mailbox storage exceeded,Update your banking profile now to remove the temporary suspension on your account,phishing
+support@wallet-check.com,Mailbox storage exceeded,Validate your mailbox password now or your messages will be deleted today,phishing
+support@wallet-check.com,Mailbox storage exceeded,Confirm your invoice information and login to prevent a service interruption,phishing
+support@wallet-check.com,Claim your reward today,Urgent action required to verify your password using the secure link below,phishing
+support@wallet-check.com,Claim your reward today,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+support@wallet-check.com,Claim your reward today,We detected unusual activity and need you to confirm your identity immediately,phishing
+support@wallet-check.com,Claim your reward today,Click the secure portal to avoid permanent account closure and restore service,phishing
+support@wallet-check.com,Claim your reward today,You have won a prize and must verify card details now to receive it,phishing
+support@wallet-check.com,Claim your reward today,Open the attached document and sign in to review the protected file,phishing
+support@wallet-check.com,Claim your reward today,Your payroll record is pending and requires employee credentials for release,phishing
+support@wallet-check.com,Claim your reward today,Update your banking profile now to remove the temporary suspension on your account,phishing
+support@wallet-check.com,Claim your reward today,Validate your mailbox password now or your messages will be deleted today,phishing
+support@wallet-check.com,Claim your reward today,Confirm your invoice information and login to prevent a service interruption,phishing
+support@wallet-check.com,Payroll access verification,Urgent action required to verify your password using the secure link below,phishing
+support@wallet-check.com,Payroll access verification,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+support@wallet-check.com,Payroll access verification,We detected unusual activity and need you to confirm your identity immediately,phishing
+support@wallet-check.com,Payroll access verification,Click the secure portal to avoid permanent account closure and restore service,phishing
+support@wallet-check.com,Payroll access verification,You have won a prize and must verify card details now to receive it,phishing
+support@wallet-check.com,Payroll access verification,Open the attached document and sign in to review the protected file,phishing
+support@wallet-check.com,Payroll access verification,Your payroll record is pending and requires employee credentials for release,phishing
+support@wallet-check.com,Payroll access verification,Update your banking profile now to remove the temporary suspension on your account,phishing
+support@wallet-check.com,Payroll access verification,Validate your mailbox password now or your messages will be deleted today,phishing
+support@wallet-check.com,Payroll access verification,Confirm your invoice information and login to prevent a service interruption,phishing
+support@wallet-check.com,Reset your password immediately,Urgent action required to verify your password using the secure link below,phishing
+support@wallet-check.com,Reset your password immediately,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+support@wallet-check.com,Reset your password immediately,We detected unusual activity and need you to confirm your identity immediately,phishing
+support@wallet-check.com,Reset your password immediately,Click the secure portal to avoid permanent account closure and restore service,phishing
+support@wallet-check.com,Reset your password immediately,You have won a prize and must verify card details now to receive it,phishing
+support@wallet-check.com,Reset your password immediately,Open the attached document and sign in to review the protected file,phishing
+support@wallet-check.com,Reset your password immediately,Your payroll record is pending and requires employee credentials for release,phishing
+support@wallet-check.com,Reset your password immediately,Update your banking profile now to remove the temporary suspension on your account,phishing
+support@wallet-check.com,Reset your password immediately,Validate your mailbox password now or your messages will be deleted today,phishing
+support@wallet-check.com,Reset your password immediately,Confirm your invoice information and login to prevent a service interruption,phishing
+support@wallet-check.com,Unusual sign in attempt detected,Urgent action required to verify your password using the secure link below,phishing
+support@wallet-check.com,Unusual sign in attempt detected,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+support@wallet-check.com,Unusual sign in attempt detected,We detected unusual activity and need you to confirm your identity immediately,phishing
+support@wallet-check.com,Unusual sign in attempt detected,Click the secure portal to avoid permanent account closure and restore service,phishing
+support@wallet-check.com,Unusual sign in attempt detected,You have won a prize and must verify card details now to receive it,phishing
+support@wallet-check.com,Unusual sign in attempt detected,Open the attached document and sign in to review the protected file,phishing
+support@wallet-check.com,Unusual sign in attempt detected,Your payroll record is pending and requires employee credentials for release,phishing
+support@wallet-check.com,Unusual sign in attempt detected,Update your banking profile now to remove the temporary suspension on your account,phishing
+support@wallet-check.com,Unusual sign in attempt detected,Validate your mailbox password now or your messages will be deleted today,phishing
+support@wallet-check.com,Unusual sign in attempt detected,Confirm your invoice information and login to prevent a service interruption,phishing
+support@wallet-check.com,Invoice failed please confirm,Urgent action required to verify your password using the secure link below,phishing
+support@wallet-check.com,Invoice failed please confirm,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+support@wallet-check.com,Invoice failed please confirm,We detected unusual activity and need you to confirm your identity immediately,phishing
+support@wallet-check.com,Invoice failed please confirm,Click the secure portal to avoid permanent account closure and restore service,phishing
+support@wallet-check.com,Invoice failed please confirm,You have won a prize and must verify card details now to receive it,phishing
+support@wallet-check.com,Invoice failed please confirm,Open the attached document and sign in to review the protected file,phishing
+support@wallet-check.com,Invoice failed please confirm,Your payroll record is pending and requires employee credentials for release,phishing
+support@wallet-check.com,Invoice failed please confirm,Update your banking profile now to remove the temporary suspension on your account,phishing
+support@wallet-check.com,Invoice failed please confirm,Validate your mailbox password now or your messages will be deleted today,phishing
+support@wallet-check.com,Invoice failed please confirm,Confirm your invoice information and login to prevent a service interruption,phishing
+support@wallet-check.com,KYC update required today,Urgent action required to verify your password using the secure link below,phishing
+support@wallet-check.com,KYC update required today,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+support@wallet-check.com,KYC update required today,We detected unusual activity and need you to confirm your identity immediately,phishing
+support@wallet-check.com,KYC update required today,Click the secure portal to avoid permanent account closure and restore service,phishing
+support@wallet-check.com,KYC update required today,You have won a prize and must verify card details now to receive it,phishing
+support@wallet-check.com,KYC update required today,Open the attached document and sign in to review the protected file,phishing
+support@wallet-check.com,KYC update required today,Your payroll record is pending and requires employee credentials for release,phishing
+support@wallet-check.com,KYC update required today,Update your banking profile now to remove the temporary suspension on your account,phishing
+support@wallet-check.com,KYC update required today,Validate your mailbox password now or your messages will be deleted today,phishing
+support@wallet-check.com,KYC update required today,Confirm your invoice information and login to prevent a service interruption,phishing
+security@paypaI-alerts.com,Verify your account now,Urgent action required to verify your password using the secure link below,phishing
+security@paypaI-alerts.com,Verify your account now,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+security@paypaI-alerts.com,Verify your account now,We detected unusual activity and need you to confirm your identity immediately,phishing
+security@paypaI-alerts.com,Verify your account now,Click the secure portal to avoid permanent account closure and restore service,phishing
+security@paypaI-alerts.com,Verify your account now,You have won a prize and must verify card details now to receive it,phishing
+security@paypaI-alerts.com,Verify your account now,Open the attached document and sign in to review the protected file,phishing
+security@paypaI-alerts.com,Verify your account now,Your payroll record is pending and requires employee credentials for release,phishing
+security@paypaI-alerts.com,Verify your account now,Update your banking profile now to remove the temporary suspension on your account,phishing
+security@paypaI-alerts.com,Verify your account now,Validate your mailbox password now or your messages will be deleted today,phishing
+security@paypaI-alerts.com,Verify your account now,Confirm your invoice information and login to prevent a service interruption,phishing
+security@paypaI-alerts.com,Account suspended notice,Urgent action required to verify your password using the secure link below,phishing
+security@paypaI-alerts.com,Account suspended notice,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+security@paypaI-alerts.com,Account suspended notice,We detected unusual activity and need you to confirm your identity immediately,phishing
+security@paypaI-alerts.com,Account suspended notice,Click the secure portal to avoid permanent account closure and restore service,phishing
+security@paypaI-alerts.com,Account suspended notice,You have won a prize and must verify card details now to receive it,phishing
+security@paypaI-alerts.com,Account suspended notice,Open the attached document and sign in to review the protected file,phishing
+security@paypaI-alerts.com,Account suspended notice,Your payroll record is pending and requires employee credentials for release,phishing
+security@paypaI-alerts.com,Account suspended notice,Update your banking profile now to remove the temporary suspension on your account,phishing
+security@paypaI-alerts.com,Account suspended notice,Validate your mailbox password now or your messages will be deleted today,phishing
+security@paypaI-alerts.com,Account suspended notice,Confirm your invoice information and login to prevent a service interruption,phishing
+security@paypaI-alerts.com,Security alert on your profile,Urgent action required to verify your password using the secure link below,phishing
+security@paypaI-alerts.com,Security alert on your profile,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+security@paypaI-alerts.com,Security alert on your profile,We detected unusual activity and need you to confirm your identity immediately,phishing
+security@paypaI-alerts.com,Security alert on your profile,Click the secure portal to avoid permanent account closure and restore service,phishing
+security@paypaI-alerts.com,Security alert on your profile,You have won a prize and must verify card details now to receive it,phishing
+security@paypaI-alerts.com,Security alert on your profile,Open the attached document and sign in to review the protected file,phishing
+security@paypaI-alerts.com,Security alert on your profile,Your payroll record is pending and requires employee credentials for release,phishing
+security@paypaI-alerts.com,Security alert on your profile,Update your banking profile now to remove the temporary suspension on your account,phishing
+security@paypaI-alerts.com,Security alert on your profile,Validate your mailbox password now or your messages will be deleted today,phishing
+security@paypaI-alerts.com,Security alert on your profile,Confirm your invoice information and login to prevent a service interruption,phishing
+security@paypaI-alerts.com,Mailbox storage exceeded,Urgent action required to verify your password using the secure link below,phishing
+security@paypaI-alerts.com,Mailbox storage exceeded,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+security@paypaI-alerts.com,Mailbox storage exceeded,We detected unusual activity and need you to confirm your identity immediately,phishing
+security@paypaI-alerts.com,Mailbox storage exceeded,Click the secure portal to avoid permanent account closure and restore service,phishing
+security@paypaI-alerts.com,Mailbox storage exceeded,You have won a prize and must verify card details now to receive it,phishing
+security@paypaI-alerts.com,Mailbox storage exceeded,Open the attached document and sign in to review the protected file,phishing
+security@paypaI-alerts.com,Mailbox storage exceeded,Your payroll record is pending and requires employee credentials for release,phishing
+security@paypaI-alerts.com,Mailbox storage exceeded,Update your banking profile now to remove the temporary suspension on your account,phishing
+security@paypaI-alerts.com,Mailbox storage exceeded,Validate your mailbox password now or your messages will be deleted today,phishing
+security@paypaI-alerts.com,Mailbox storage exceeded,Confirm your invoice information and login to prevent a service interruption,phishing
+security@paypaI-alerts.com,Claim your reward today,Urgent action required to verify your password using the secure link below,phishing
+security@paypaI-alerts.com,Claim your reward today,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+security@paypaI-alerts.com,Claim your reward today,We detected unusual activity and need you to confirm your identity immediately,phishing
+security@paypaI-alerts.com,Claim your reward today,Click the secure portal to avoid permanent account closure and restore service,phishing
+security@paypaI-alerts.com,Claim your reward today,You have won a prize and must verify card details now to receive it,phishing
+security@paypaI-alerts.com,Claim your reward today,Open the attached document and sign in to review the protected file,phishing
+security@paypaI-alerts.com,Claim your reward today,Your payroll record is pending and requires employee credentials for release,phishing
+security@paypaI-alerts.com,Claim your reward today,Update your banking profile now to remove the temporary suspension on your account,phishing
+security@paypaI-alerts.com,Claim your reward today,Validate your mailbox password now or your messages will be deleted today,phishing
+security@paypaI-alerts.com,Claim your reward today,Confirm your invoice information and login to prevent a service interruption,phishing
+security@paypaI-alerts.com,Payroll access verification,Urgent action required to verify your password using the secure link below,phishing
+security@paypaI-alerts.com,Payroll access verification,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+security@paypaI-alerts.com,Payroll access verification,We detected unusual activity and need you to confirm your identity immediately,phishing
+security@paypaI-alerts.com,Payroll access verification,Click the secure portal to avoid permanent account closure and restore service,phishing
+security@paypaI-alerts.com,Payroll access verification,You have won a prize and must verify card details now to receive it,phishing
+security@paypaI-alerts.com,Payroll access verification,Open the attached document and sign in to review the protected file,phishing
+security@paypaI-alerts.com,Payroll access verification,Your payroll record is pending and requires employee credentials for release,phishing
+security@paypaI-alerts.com,Payroll access verification,Update your banking profile now to remove the temporary suspension on your account,phishing
+security@paypaI-alerts.com,Payroll access verification,Validate your mailbox password now or your messages will be deleted today,phishing
+security@paypaI-alerts.com,Payroll access verification,Confirm your invoice information and login to prevent a service interruption,phishing
+security@paypaI-alerts.com,Reset your password immediately,Urgent action required to verify your password using the secure link below,phishing
+security@paypaI-alerts.com,Reset your password immediately,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+security@paypaI-alerts.com,Reset your password immediately,We detected unusual activity and need you to confirm your identity immediately,phishing
+security@paypaI-alerts.com,Reset your password immediately,Click the secure portal to avoid permanent account closure and restore service,phishing
+security@paypaI-alerts.com,Reset your password immediately,You have won a prize and must verify card details now to receive it,phishing
+security@paypaI-alerts.com,Reset your password immediately,Open the attached document and sign in to review the protected file,phishing
+security@paypaI-alerts.com,Reset your password immediately,Your payroll record is pending and requires employee credentials for release,phishing
+security@paypaI-alerts.com,Reset your password immediately,Update your banking profile now to remove the temporary suspension on your account,phishing
+security@paypaI-alerts.com,Reset your password immediately,Validate your mailbox password now or your messages will be deleted today,phishing
+security@paypaI-alerts.com,Reset your password immediately,Confirm your invoice information and login to prevent a service interruption,phishing
+security@paypaI-alerts.com,Unusual sign in attempt detected,Urgent action required to verify your password using the secure link below,phishing
+security@paypaI-alerts.com,Unusual sign in attempt detected,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+security@paypaI-alerts.com,Unusual sign in attempt detected,We detected unusual activity and need you to confirm your identity immediately,phishing
+security@paypaI-alerts.com,Unusual sign in attempt detected,Click the secure portal to avoid permanent account closure and restore service,phishing
+security@paypaI-alerts.com,Unusual sign in attempt detected,You have won a prize and must verify card details now to receive it,phishing
+security@paypaI-alerts.com,Unusual sign in attempt detected,Open the attached document and sign in to review the protected file,phishing
+security@paypaI-alerts.com,Unusual sign in attempt detected,Your payroll record is pending and requires employee credentials for release,phishing
+security@paypaI-alerts.com,Unusual sign in attempt detected,Update your banking profile now to remove the temporary suspension on your account,phishing
+security@paypaI-alerts.com,Unusual sign in attempt detected,Validate your mailbox password now or your messages will be deleted today,phishing
+security@paypaI-alerts.com,Unusual sign in attempt detected,Confirm your invoice information and login to prevent a service interruption,phishing
+security@paypaI-alerts.com,Invoice failed please confirm,Urgent action required to verify your password using the secure link below,phishing
+security@paypaI-alerts.com,Invoice failed please confirm,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+security@paypaI-alerts.com,Invoice failed please confirm,We detected unusual activity and need you to confirm your identity immediately,phishing
+security@paypaI-alerts.com,Invoice failed please confirm,Click the secure portal to avoid permanent account closure and restore service,phishing
+security@paypaI-alerts.com,Invoice failed please confirm,You have won a prize and must verify card details now to receive it,phishing
+security@paypaI-alerts.com,Invoice failed please confirm,Open the attached document and sign in to review the protected file,phishing
+security@paypaI-alerts.com,Invoice failed please confirm,Your payroll record is pending and requires employee credentials for release,phishing
+security@paypaI-alerts.com,Invoice failed please confirm,Update your banking profile now to remove the temporary suspension on your account,phishing
+security@paypaI-alerts.com,Invoice failed please confirm,Validate your mailbox password now or your messages will be deleted today,phishing
+security@paypaI-alerts.com,Invoice failed please confirm,Confirm your invoice information and login to prevent a service interruption,phishing
+security@paypaI-alerts.com,KYC update required today,Urgent action required to verify your password using the secure link below,phishing
+security@paypaI-alerts.com,KYC update required today,Your access will be suspended within 24 hours unless you confirm your login details now,phishing
+security@paypaI-alerts.com,KYC update required today,We detected unusual activity and need you to confirm your identity immediately,phishing
+security@paypaI-alerts.com,KYC update required today,Click the secure portal to avoid permanent account closure and restore service,phishing
+security@paypaI-alerts.com,KYC update required today,You have won a prize and must verify card details now to receive it,phishing
+security@paypaI-alerts.com,KYC update required today,Open the attached document and sign in to review the protected file,phishing
+security@paypaI-alerts.com,KYC update required today,Your payroll record is pending and requires employee credentials for release,phishing
+security@paypaI-alerts.com,KYC update required today,Update your banking profile now to remove the temporary suspension on your account,phishing
+security@paypaI-alerts.com,KYC update required today,Validate your mailbox password now or your messages will be deleted today,phishing
+security@paypaI-alerts.com,KYC update required today,Confirm your invoice information and login to prevent a service interruption,phishing
+team@example.com,Weekly project update,Project notes for this week are attached for your review before the meeting,benign
+team@example.com,Weekly project update,Please find your interview schedule and venue details for next week,benign
+team@example.com,Weekly project update,Highlights from the community this month are included in this newsletter,benign
+team@example.com,Weekly project update,Your reimbursement has been processed successfully and will appear shortly,benign
+team@example.com,Weekly project update,This is a confirmation that your password was changed from account settings,benign
+team@example.com,Weekly project update,Your travel booking receipt is attached for your records and expense filing,benign
+team@example.com,Weekly project update,Submit the assignment by Friday evening using the course portal,benign
+team@example.com,Weekly project update,Rainfall warning in your district for tomorrow so plan travel accordingly,benign
+team@example.com,Weekly project update,Here is your workspace usage summary for the current billing cycle,benign
+team@example.com,Weekly project update,Your registration for the event has been confirmed and seats are reserved,benign
+team@example.com,Weekly project update,A debit card transaction of 550 INR was completed at City Mart,benign
+team@example.com,Weekly project update,Your package was delivered today and the invoice is available in the app,benign
+team@example.com,Weekly project update,Your payslip for March is available on the employee self-service portal,benign
+team@example.com,Weekly project update,VPN access may be intermittent tonight due to scheduled maintenance,benign
+team@example.com,Weekly project update,We received your subscription payment successfully and no further action is needed,benign
+team@example.com,Weekly project update,The bank statement for your account is ready to download from the portal,benign
+team@example.com,Weekly project update,Your refund request has been approved and will be credited within five business days,benign
+team@example.com,Weekly project update,This purchase confirmation includes the GST invoice for your completed order,benign
+team@example.com,Weekly project update,Your reimbursement request was approved by finance and is queued for transfer,benign
+team@example.com,Weekly project update,Scheduled maintenance will affect login for ten minutes after midnight tonight,benign
+team@example.com,Interview schedule for next week,Project notes for this week are attached for your review before the meeting,benign
+team@example.com,Interview schedule for next week,Please find your interview schedule and venue details for next week,benign
+team@example.com,Interview schedule for next week,Highlights from the community this month are included in this newsletter,benign
+team@example.com,Interview schedule for next week,Your reimbursement has been processed successfully and will appear shortly,benign
+team@example.com,Interview schedule for next week,This is a confirmation that your password was changed from account settings,benign
+team@example.com,Interview schedule for next week,Your travel booking receipt is attached for your records and expense filing,benign
+team@example.com,Interview schedule for next week,Submit the assignment by Friday evening using the course portal,benign
+team@example.com,Interview schedule for next week,Rainfall warning in your district for tomorrow so plan travel accordingly,benign
+team@example.com,Interview schedule for next week,Here is your workspace usage summary for the current billing cycle,benign
+team@example.com,Interview schedule for next week,Your registration for the event has been confirmed and seats are reserved,benign
+team@example.com,Interview schedule for next week,A debit card transaction of 550 INR was completed at City Mart,benign
+team@example.com,Interview schedule for next week,Your package was delivered today and the invoice is available in the app,benign
+team@example.com,Interview schedule for next week,Your payslip for March is available on the employee self-service portal,benign
+team@example.com,Interview schedule for next week,VPN access may be intermittent tonight due to scheduled maintenance,benign
+team@example.com,Interview schedule for next week,We received your subscription payment successfully and no further action is needed,benign
+team@example.com,Interview schedule for next week,The bank statement for your account is ready to download from the portal,benign
+team@example.com,Interview schedule for next week,Your refund request has been approved and will be credited within five business days,benign
+team@example.com,Interview schedule for next week,This purchase confirmation includes the GST invoice for your completed order,benign
+team@example.com,Interview schedule for next week,Your reimbursement request was approved by finance and is queued for transfer,benign
+team@example.com,Interview schedule for next week,Scheduled maintenance will affect login for ten minutes after midnight tonight,benign
+team@example.com,Monthly community newsletter,Project notes for this week are attached for your review before the meeting,benign
+team@example.com,Monthly community newsletter,Please find your interview schedule and venue details for next week,benign
+team@example.com,Monthly community newsletter,Highlights from the community this month are included in this newsletter,benign
+team@example.com,Monthly community newsletter,Your reimbursement has been processed successfully and will appear shortly,benign
+team@example.com,Monthly community newsletter,This is a confirmation that your password was changed from account settings,benign
+team@example.com,Monthly community newsletter,Your travel booking receipt is attached for your records and expense filing,benign
+team@example.com,Monthly community newsletter,Submit the assignment by Friday evening using the course portal,benign
+team@example.com,Monthly community newsletter,Rainfall warning in your district for tomorrow so plan travel accordingly,benign
+team@example.com,Monthly community newsletter,Here is your workspace usage summary for the current billing cycle,benign
+team@example.com,Monthly community newsletter,Your registration for the event has been confirmed and seats are reserved,benign
+team@example.com,Monthly community newsletter,A debit card transaction of 550 INR was completed at City Mart,benign
+team@example.com,Monthly community newsletter,Your package was delivered today and the invoice is available in the app,benign
+team@example.com,Monthly community newsletter,Your payslip for March is available on the employee self-service portal,benign
+team@example.com,Monthly community newsletter,VPN access may be intermittent tonight due to scheduled maintenance,benign
+team@example.com,Monthly community newsletter,We received your subscription payment successfully and no further action is needed,benign
+team@example.com,Monthly community newsletter,The bank statement for your account is ready to download from the portal,benign
+team@example.com,Monthly community newsletter,Your refund request has been approved and will be credited within five business days,benign
+team@example.com,Monthly community newsletter,This purchase confirmation includes the GST invoice for your completed order,benign
+team@example.com,Monthly community newsletter,Your reimbursement request was approved by finance and is queued for transfer,benign
+team@example.com,Monthly community newsletter,Scheduled maintenance will affect login for ten minutes after midnight tonight,benign
+team@example.com,Expense reimbursement processed,Project notes for this week are attached for your review before the meeting,benign
+team@example.com,Expense reimbursement processed,Please find your interview schedule and venue details for next week,benign
+team@example.com,Expense reimbursement processed,Highlights from the community this month are included in this newsletter,benign
+team@example.com,Expense reimbursement processed,Your reimbursement has been processed successfully and will appear shortly,benign
+team@example.com,Expense reimbursement processed,This is a confirmation that your password was changed from account settings,benign
+team@example.com,Expense reimbursement processed,Your travel booking receipt is attached for your records and expense filing,benign
+team@example.com,Expense reimbursement processed,Submit the assignment by Friday evening using the course portal,benign
+team@example.com,Expense reimbursement processed,Rainfall warning in your district for tomorrow so plan travel accordingly,benign
+team@example.com,Expense reimbursement processed,Here is your workspace usage summary for the current billing cycle,benign
+team@example.com,Expense reimbursement processed,Your registration for the event has been confirmed and seats are reserved,benign
+team@example.com,Expense reimbursement processed,A debit card transaction of 550 INR was completed at City Mart,benign
+team@example.com,Expense reimbursement processed,Your package was delivered today and the invoice is available in the app,benign
+team@example.com,Expense reimbursement processed,Your payslip for March is available on the employee self-service portal,benign
+team@example.com,Expense reimbursement processed,VPN access may be intermittent tonight due to scheduled maintenance,benign
+team@example.com,Expense reimbursement processed,We received your subscription payment successfully and no further action is needed,benign
+team@example.com,Expense reimbursement processed,The bank statement for your account is ready to download from the portal,benign
+team@example.com,Expense reimbursement processed,Your refund request has been approved and will be credited within five business days,benign
+team@example.com,Expense reimbursement processed,This purchase confirmation includes the GST invoice for your completed order,benign
+team@example.com,Expense reimbursement processed,Your reimbursement request was approved by finance and is queued for transfer,benign
+team@example.com,Expense reimbursement processed,Scheduled maintenance will affect login for ten minutes after midnight tonight,benign
+team@example.com,Password changed confirmation,Project notes for this week are attached for your review before the meeting,benign
+team@example.com,Password changed confirmation,Please find your interview schedule and venue details for next week,benign
+team@example.com,Password changed confirmation,Highlights from the community this month are included in this newsletter,benign
+team@example.com,Password changed confirmation,Your reimbursement has been processed successfully and will appear shortly,benign
+team@example.com,Password changed confirmation,This is a confirmation that your password was changed from account settings,benign
+team@example.com,Password changed confirmation,Your travel booking receipt is attached for your records and expense filing,benign
+team@example.com,Password changed confirmation,Submit the assignment by Friday evening using the course portal,benign
+team@example.com,Password changed confirmation,Rainfall warning in your district for tomorrow so plan travel accordingly,benign
+team@example.com,Password changed confirmation,Here is your workspace usage summary for the current billing cycle,benign
+team@example.com,Password changed confirmation,Your registration for the event has been confirmed and seats are reserved,benign
+team@example.com,Password changed confirmation,A debit card transaction of 550 INR was completed at City Mart,benign
+team@example.com,Password changed confirmation,Your package was delivered today and the invoice is available in the app,benign
+team@example.com,Password changed confirmation,Your payslip for March is available on the employee self-service portal,benign
+team@example.com,Password changed confirmation,VPN access may be intermittent tonight due to scheduled maintenance,benign
+team@example.com,Password changed confirmation,We received your subscription payment successfully and no further action is needed,benign
+team@example.com,Password changed confirmation,The bank statement for your account is ready to download from the portal,benign
+team@example.com,Password changed confirmation,Your refund request has been approved and will be credited within five business days,benign
+team@example.com,Password changed confirmation,This purchase confirmation includes the GST invoice for your completed order,benign
+team@example.com,Password changed confirmation,Your reimbursement request was approved by finance and is queued for transfer,benign
+team@example.com,Password changed confirmation,Scheduled maintenance will affect login for ten minutes after midnight tonight,benign
+team@example.com,Trip receipt attached,Project notes for this week are attached for your review before the meeting,benign
+team@example.com,Trip receipt attached,Please find your interview schedule and venue details for next week,benign
+team@example.com,Trip receipt attached,Highlights from the community this month are included in this newsletter,benign
+team@example.com,Trip receipt attached,Your reimbursement has been processed successfully and will appear shortly,benign
+team@example.com,Trip receipt attached,This is a confirmation that your password was changed from account settings,benign
+team@example.com,Trip receipt attached,Your travel booking receipt is attached for your records and expense filing,benign
+team@example.com,Trip receipt attached,Submit the assignment by Friday evening using the course portal,benign
+team@example.com,Trip receipt attached,Rainfall warning in your district for tomorrow so plan travel accordingly,benign
+team@example.com,Trip receipt attached,Here is your workspace usage summary for the current billing cycle,benign
+team@example.com,Trip receipt attached,Your registration for the event has been confirmed and seats are reserved,benign
+team@example.com,Trip receipt attached,A debit card transaction of 550 INR was completed at City Mart,benign
+team@example.com,Trip receipt attached,Your package was delivered today and the invoice is available in the app,benign
+team@example.com,Trip receipt attached,Your payslip for March is available on the employee self-service portal,benign
+team@example.com,Trip receipt attached,VPN access may be intermittent tonight due to scheduled maintenance,benign
+team@example.com,Trip receipt attached,We received your subscription payment successfully and no further action is needed,benign
+team@example.com,Trip receipt attached,The bank statement for your account is ready to download from the portal,benign
+team@example.com,Trip receipt attached,Your refund request has been approved and will be credited within five business days,benign
+team@example.com,Trip receipt attached,This purchase confirmation includes the GST invoice for your completed order,benign
+team@example.com,Trip receipt attached,Your reimbursement request was approved by finance and is queued for transfer,benign
+team@example.com,Trip receipt attached,Scheduled maintenance will affect login for ten minutes after midnight tonight,benign
+team@example.com,Assignment reminder for Friday,Project notes for this week are attached for your review before the meeting,benign
+team@example.com,Assignment reminder for Friday,Please find your interview schedule and venue details for next week,benign
+team@example.com,Assignment reminder for Friday,Highlights from the community this month are included in this newsletter,benign
+team@example.com,Assignment reminder for Friday,Your reimbursement has been processed successfully and will appear shortly,benign
+team@example.com,Assignment reminder for Friday,This is a confirmation that your password was changed from account settings,benign
+team@example.com,Assignment reminder for Friday,Your travel booking receipt is attached for your records and expense filing,benign
+team@example.com,Assignment reminder for Friday,Submit the assignment by Friday evening using the course portal,benign
+team@example.com,Assignment reminder for Friday,Rainfall warning in your district for tomorrow so plan travel accordingly,benign
+team@example.com,Assignment reminder for Friday,Here is your workspace usage summary for the current billing cycle,benign
+team@example.com,Assignment reminder for Friday,Your registration for the event has been confirmed and seats are reserved,benign
+team@example.com,Assignment reminder for Friday,A debit card transaction of 550 INR was completed at City Mart,benign
+team@example.com,Assignment reminder for Friday,Your package was delivered today and the invoice is available in the app,benign
+team@example.com,Assignment reminder for Friday,Your payslip for March is available on the employee self-service portal,benign
+team@example.com,Assignment reminder for Friday,VPN access may be intermittent tonight due to scheduled maintenance,benign
+team@example.com,Assignment reminder for Friday,We received your subscription payment successfully and no further action is needed,benign
+team@example.com,Assignment reminder for Friday,The bank statement for your account is ready to download from the portal,benign
+team@example.com,Assignment reminder for Friday,Your refund request has been approved and will be credited within five business days,benign
+team@example.com,Assignment reminder for Friday,This purchase confirmation includes the GST invoice for your completed order,benign
+team@example.com,Assignment reminder for Friday,Your reimbursement request was approved by finance and is queued for transfer,benign
+team@example.com,Assignment reminder for Friday,Scheduled maintenance will affect login for ten minutes after midnight tonight,benign
+team@example.com,Weather advisory for tomorrow,Project notes for this week are attached for your review before the meeting,benign
+team@example.com,Weather advisory for tomorrow,Please find your interview schedule and venue details for next week,benign
+team@example.com,Weather advisory for tomorrow,Highlights from the community this month are included in this newsletter,benign
+team@example.com,Weather advisory for tomorrow,Your reimbursement has been processed successfully and will appear shortly,benign
+team@example.com,Weather advisory for tomorrow,This is a confirmation that your password was changed from account settings,benign
+team@example.com,Weather advisory for tomorrow,Your travel booking receipt is attached for your records and expense filing,benign
+team@example.com,Weather advisory for tomorrow,Submit the assignment by Friday evening using the course portal,benign
+team@example.com,Weather advisory for tomorrow,Rainfall warning in your district for tomorrow so plan travel accordingly,benign
+team@example.com,Weather advisory for tomorrow,Here is your workspace usage summary for the current billing cycle,benign
+team@example.com,Weather advisory for tomorrow,Your registration for the event has been confirmed and seats are reserved,benign
+team@example.com,Weather advisory for tomorrow,A debit card transaction of 550 INR was completed at City Mart,benign
+team@example.com,Weather advisory for tomorrow,Your package was delivered today and the invoice is available in the app,benign
+team@example.com,Weather advisory for tomorrow,Your payslip for March is available on the employee self-service portal,benign
+team@example.com,Weather advisory for tomorrow,VPN access may be intermittent tonight due to scheduled maintenance,benign
+team@example.com,Weather advisory for tomorrow,We received your subscription payment successfully and no further action is needed,benign
+team@example.com,Weather advisory for tomorrow,The bank statement for your account is ready to download from the portal,benign
+team@example.com,Weather advisory for tomorrow,Your refund request has been approved and will be credited within five business days,benign
+team@example.com,Weather advisory for tomorrow,This purchase confirmation includes the GST invoice for your completed order,benign
+team@example.com,Weather advisory for tomorrow,Your reimbursement request was approved by finance and is queued for transfer,benign
+team@example.com,Weather advisory for tomorrow,Scheduled maintenance will affect login for ten minutes after midnight tonight,benign
+team@example.com,Workspace access summary,Project notes for this week are attached for your review before the meeting,benign
+team@example.com,Workspace access summary,Please find your interview schedule and venue details for next week,benign
+team@example.com,Workspace access summary,Highlights from the community this month are included in this newsletter,benign
+team@example.com,Workspace access summary,Your reimbursement has been processed successfully and will appear shortly,benign
+team@example.com,Workspace access summary,This is a confirmation that your password was changed from account settings,benign
+team@example.com,Workspace access summary,Your travel booking receipt is attached for your records and expense filing,benign
+team@example.com,Workspace access summary,Submit the assignment by Friday evening using the course portal,benign
+team@example.com,Workspace access summary,Rainfall warning in your district for tomorrow so plan travel accordingly,benign
+team@example.com,Workspace access summary,Here is your workspace usage summary for the current billing cycle,benign
+team@example.com,Workspace access summary,Your registration for the event has been confirmed and seats are reserved,benign
+team@example.com,Workspace access summary,A debit card transaction of 550 INR was completed at City Mart,benign
+team@example.com,Workspace access summary,Your package was delivered today and the invoice is available in the app,benign
+team@example.com,Workspace access summary,Your payslip for March is available on the employee self-service portal,benign
+team@example.com,Workspace access summary,VPN access may be intermittent tonight due to scheduled maintenance,benign
+team@example.com,Workspace access summary,We received your subscription payment successfully and no further action is needed,benign
+team@example.com,Workspace access summary,The bank statement for your account is ready to download from the portal,benign
+team@example.com,Workspace access summary,Your refund request has been approved and will be credited within five business days,benign
+team@example.com,Workspace access summary,This purchase confirmation includes the GST invoice for your completed order,benign
+team@example.com,Workspace access summary,Your reimbursement request was approved by finance and is queued for transfer,benign
+team@example.com,Workspace access summary,Scheduled maintenance will affect login for ten minutes after midnight tonight,benign
+team@example.com,Event registration confirmed,Project notes for this week are attached for your review before the meeting,benign
+team@example.com,Event registration confirmed,Please find your interview schedule and venue details for next week,benign
+team@example.com,Event registration confirmed,Highlights from the community this month are included in this newsletter,benign
+team@example.com,Event registration confirmed,Your reimbursement has been processed successfully and will appear shortly,benign
+team@example.com,Event registration confirmed,This is a confirmation that your password was changed from account settings,benign
+team@example.com,Event registration confirmed,Your travel booking receipt is attached for your records and expense filing,benign
+team@example.com,Event registration confirmed,Submit the assignment by Friday evening using the course portal,benign
+team@example.com,Event registration confirmed,Rainfall warning in your district for tomorrow so plan travel accordingly,benign
+team@example.com,Event registration confirmed,Here is your workspace usage summary for the current billing cycle,benign
+team@example.com,Event registration confirmed,Your registration for the event has been confirmed and seats are reserved,benign
+team@example.com,Event registration confirmed,A debit card transaction of 550 INR was completed at City Mart,benign
+team@example.com,Event registration confirmed,Your package was delivered today and the invoice is available in the app,benign
+team@example.com,Event registration confirmed,Your payslip for March is available on the employee self-service portal,benign
+team@example.com,Event registration confirmed,VPN access may be intermittent tonight due to scheduled maintenance,benign
+team@example.com,Event registration confirmed,We received your subscription payment successfully and no further action is needed,benign
+team@example.com,Event registration confirmed,The bank statement for your account is ready to download from the portal,benign
+team@example.com,Event registration confirmed,Your refund request has been approved and will be credited within five business days,benign
+team@example.com,Event registration confirmed,This purchase confirmation includes the GST invoice for your completed order,benign
+team@example.com,Event registration confirmed,Your reimbursement request was approved by finance and is queued for transfer,benign
+team@example.com,Event registration confirmed,Scheduled maintenance will affect login for ten minutes after midnight tonight,benign
+team@example.com,Transaction alert,Project notes for this week are attached for your review before the meeting,benign
+team@example.com,Transaction alert,Please find your interview schedule and venue details for next week,benign
+team@example.com,Transaction alert,Highlights from the community this month are included in this newsletter,benign
+team@example.com,Transaction alert,Your reimbursement has been processed successfully and will appear shortly,benign
+team@example.com,Transaction alert,This is a confirmation that your password was changed from account settings,benign
+team@example.com,Transaction alert,Your travel booking receipt is attached for your records and expense filing,benign
+team@example.com,Transaction alert,Submit the assignment by Friday evening using the course portal,benign
+team@example.com,Transaction alert,Rainfall warning in your district for tomorrow so plan travel accordingly,benign
+team@example.com,Transaction alert,Here is your workspace usage summary for the current billing cycle,benign
+team@example.com,Transaction alert,Your registration for the event has been confirmed and seats are reserved,benign
+team@example.com,Transaction alert,A debit card transaction of 550 INR was completed at City Mart,benign
+team@example.com,Transaction alert,Your package was delivered today and the invoice is available in the app,benign
+team@example.com,Transaction alert,Your payslip for March is available on the employee self-service portal,benign
+team@example.com,Transaction alert,VPN access may be intermittent tonight due to scheduled maintenance,benign
+team@example.com,Transaction alert,We received your subscription payment successfully and no further action is needed,benign
+team@example.com,Transaction alert,The bank statement for your account is ready to download from the portal,benign
+team@example.com,Transaction alert,Your refund request has been approved and will be credited within five business days,benign
+team@example.com,Transaction alert,This purchase confirmation includes the GST invoice for your completed order,benign
+team@example.com,Transaction alert,Your reimbursement request was approved by finance and is queued for transfer,benign
+team@example.com,Transaction alert,Scheduled maintenance will affect login for ten minutes after midnight tonight,benign
+team@example.com,Order delivered,Project notes for this week are attached for your review before the meeting,benign
+team@example.com,Order delivered,Please find your interview schedule and venue details for next week,benign
+team@example.com,Order delivered,Highlights from the community this month are included in this newsletter,benign
+team@example.com,Order delivered,Your reimbursement has been processed successfully and will appear shortly,benign
+team@example.com,Order delivered,This is a confirmation that your password was changed from account settings,benign
+team@example.com,Order delivered,Your travel booking receipt is attached for your records and expense filing,benign
+team@example.com,Order delivered,Submit the assignment by Friday evening using the course portal,benign
+team@example.com,Order delivered,Rainfall warning in your district for tomorrow so plan travel accordingly,benign
+team@example.com,Order delivered,Here is your workspace usage summary for the current billing cycle,benign
+team@example.com,Order delivered,Your registration for the event has been confirmed and seats are reserved,benign
+team@example.com,Order delivered,A debit card transaction of 550 INR was completed at City Mart,benign
+team@example.com,Order delivered,Your package was delivered today and the invoice is available in the app,benign
+team@example.com,Order delivered,Your payslip for March is available on the employee self-service portal,benign
+team@example.com,Order delivered,VPN access may be intermittent tonight due to scheduled maintenance,benign
+team@example.com,Order delivered,We received your subscription payment successfully and no further action is needed,benign
+team@example.com,Order delivered,The bank statement for your account is ready to download from the portal,benign
+team@example.com,Order delivered,Your refund request has been approved and will be credited within five business days,benign
+team@example.com,Order delivered,This purchase confirmation includes the GST invoice for your completed order,benign
+team@example.com,Order delivered,Your reimbursement request was approved by finance and is queued for transfer,benign
+team@example.com,Order delivered,Scheduled maintenance will affect login for ten minutes after midnight tonight,benign
+team@example.com,Payslip available,Project notes for this week are attached for your review before the meeting,benign
+team@example.com,Payslip available,Please find your interview schedule and venue details for next week,benign
+team@example.com,Payslip available,Highlights from the community this month are included in this newsletter,benign
+team@example.com,Payslip available,Your reimbursement has been processed successfully and will appear shortly,benign
+team@example.com,Payslip available,This is a confirmation that your password was changed from account settings,benign
+team@example.com,Payslip available,Your travel booking receipt is attached for your records and expense filing,benign
+team@example.com,Payslip available,Submit the assignment by Friday evening using the course portal,benign
+team@example.com,Payslip available,Rainfall warning in your district for tomorrow so plan travel accordingly,benign
+team@example.com,Payslip available,Here is your workspace usage summary for the current billing cycle,benign
+team@example.com,Payslip available,Your registration for the event has been confirmed and seats are reserved,benign
+team@example.com,Payslip available,A debit card transaction of 550 INR was completed at City Mart,benign
+team@example.com,Payslip available,Your package was delivered today and the invoice is available in the app,benign
+team@example.com,Payslip available,Your payslip for March is available on the employee self-service portal,benign
+team@example.com,Payslip available,VPN access may be intermittent tonight due to scheduled maintenance,benign
+team@example.com,Payslip available,We received your subscription payment successfully and no further action is needed,benign
+team@example.com,Payslip available,The bank statement for your account is ready to download from the portal,benign
+team@example.com,Payslip available,Your refund request has been approved and will be credited within five business days,benign
+team@example.com,Payslip available,This purchase confirmation includes the GST invoice for your completed order,benign
+team@example.com,Payslip available,Your reimbursement request was approved by finance and is queued for transfer,benign
+team@example.com,Payslip available,Scheduled maintenance will affect login for ten minutes after midnight tonight,benign
+team@example.com,Maintenance notice,Project notes for this week are attached for your review before the meeting,benign
+team@example.com,Maintenance notice,Please find your interview schedule and venue details for next week,benign
+team@example.com,Maintenance notice,Highlights from the community this month are included in this newsletter,benign
+team@example.com,Maintenance notice,Your reimbursement has been processed successfully and will appear shortly,benign
+team@example.com,Maintenance notice,This is a confirmation that your password was changed from account settings,benign
+team@example.com,Maintenance notice,Your travel booking receipt is attached for your records and expense filing,benign
+team@example.com,Maintenance notice,Submit the assignment by Friday evening using the course portal,benign
+team@example.com,Maintenance notice,Rainfall warning in your district for tomorrow so plan travel accordingly,benign
+team@example.com,Maintenance notice,Here is your workspace usage summary for the current billing cycle,benign
+team@example.com,Maintenance notice,Your registration for the event has been confirmed and seats are reserved,benign
+team@example.com,Maintenance notice,A debit card transaction of 550 INR was completed at City Mart,benign
+team@example.com,Maintenance notice,Your package was delivered today and the invoice is available in the app,benign
+team@example.com,Maintenance notice,Your payslip for March is available on the employee self-service portal,benign
+team@example.com,Maintenance notice,VPN access may be intermittent tonight due to scheduled maintenance,benign
+team@example.com,Maintenance notice,We received your subscription payment successfully and no further action is needed,benign
+team@example.com,Maintenance notice,The bank statement for your account is ready to download from the portal,benign
+team@example.com,Maintenance notice,Your refund request has been approved and will be credited within five business days,benign
+team@example.com,Maintenance notice,This purchase confirmation includes the GST invoice for your completed order,benign
+team@example.com,Maintenance notice,Your reimbursement request was approved by finance and is queued for transfer,benign
+team@example.com,Maintenance notice,Scheduled maintenance will affect login for ten minutes after midnight tonight,benign
+team@example.com,Invoice paid,Project notes for this week are attached for your review before the meeting,benign
+team@example.com,Invoice paid,Please find your interview schedule and venue details for next week,benign
+team@example.com,Invoice paid,Highlights from the community this month are included in this newsletter,benign
+team@example.com,Invoice paid,Your reimbursement has been processed successfully and will appear shortly,benign
+team@example.com,Invoice paid,This is a confirmation that your password was changed from account settings,benign
+team@example.com,Invoice paid,Your travel booking receipt is attached for your records and expense filing,benign
+team@example.com,Invoice paid,Submit the assignment by Friday evening using the course portal,benign
+team@example.com,Invoice paid,Rainfall warning in your district for tomorrow so plan travel accordingly,benign
+team@example.com,Invoice paid,Here is your workspace usage summary for the current billing cycle,benign
+team@example.com,Invoice paid,Your registration for the event has been confirmed and seats are reserved,benign
+team@example.com,Invoice paid,A debit card transaction of 550 INR was completed at City Mart,benign
+team@example.com,Invoice paid,Your package was delivered today and the invoice is available in the app,benign
+team@example.com,Invoice paid,Your payslip for March is available on the employee self-service portal,benign
+team@example.com,Invoice paid,VPN access may be intermittent tonight due to scheduled maintenance,benign
+team@example.com,Invoice paid,We received your subscription payment successfully and no further action is needed,benign
+team@example.com,Invoice paid,The bank statement for your account is ready to download from the portal,benign
+team@example.com,Invoice paid,Your refund request has been approved and will be credited within five business days,benign
+team@example.com,Invoice paid,This purchase confirmation includes the GST invoice for your completed order,benign
+team@example.com,Invoice paid,Your reimbursement request was approved by finance and is queued for transfer,benign
+team@example.com,Invoice paid,Scheduled maintenance will affect login for ten minutes after midnight tonight,benign

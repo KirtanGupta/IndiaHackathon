@@ -18,6 +18,10 @@ EMAIL_TOKENS = {
     "account": 6,
     "login": 12,
     "credentials": 16,
+    "prize": 14,
+    "reward": 12,
+    "card": 12,
+    "details": 8,
 }
 
 EMAIL_PATTERNS = {
@@ -32,6 +36,9 @@ EMAIL_PATTERNS = {
     "customer security department": 16,
     "avoid suspension": 16,
     "permanent account closure": 22,
+    "won a prize": 24,
+    "verify card details": 24,
+    "claim your reward": 20,
 }
 
 URL_TOKENS = {

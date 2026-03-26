@@ -1,94 +1,66 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import InputPanel from "../components/InputPanel";
-import PhishingPhaseGuide from "../components/PhishingPhaseGuide";
-import UrlPhaseGuide from "../components/UrlPhaseGuide";
 import ResultCard from "../components/ResultCard";
-import IncidentLog from "../components/IncidentLog";
-import { fetchRoadmap, scan } from "../api/scan";
+import { scan } from "../api/scan";
 
 const initialResult = {
   active_phase: "email",
   score: 0,
   severity: "low",
-  explanation: "Run a phase to see isolated analysis.",
-  module_explanations: {
-    email: "",
-    url: "",
-    deepfake: ""
-  },
+  explanation: "Paste an email and run the phishing scan to see the risk analysis.",
+  module_explanations: { email: "" },
+  module_reasoning: { email: [] },
   modules: {
-    email: { score: 0, severity: "low", source: "inactive" },
-    url: { score: 0, severity: "low", source: "inactive" },
-    deepfake: { score: 0, severity: "low", source: "inactive" }
+    email: {
+      module: "email",
+      score: 0,
+      severity: "low",
+      source: "inactive",
+      label: "-",
+      confidence: 0,
+      probabilities: { benign: 0, phishing: 0 },
+      matched_signals: [],
+      score_breakdown: {
+        model_component: 0,
+        heuristic_component: 0,
+        raw_heuristic_score: 0,
+      },
+    },
   },
-  ordered_modules: [],
-  signals: {
-    email_length: 0,
-    url_present: false,
-    media_type: "audio"
-  }
+  signals: { email_length: 0 },
 };
 
 export default function App() {
   const [result, setResult] = useState(initialResult);
-  const [incidentLog, setIncidentLog] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [activePhase, setActivePhase] = useState("email");
-  const [roadmap, setRoadmap] = useState({ phases: [], demo_order: ["email", "url", "deepfake"] });
+  const [scanDuration, setScanDuration] = useState(null);
+  const [scanComplete, setScanComplete] = useState(false);
 
-  useEffect(() => {
-    fetchRoadmap().then(setRoadmap).catch(() => undefined);
-  }, []);
-
-  async function handleScan(payload) {
+  async function handleScan(emailText) {
     setLoading(true);
+    const start = performance.now();
     try {
-      const data = await scan(payload);
+      const data = await scan({
+        active_phase: "email",
+        email_text: emailText,
+        url: "",
+        media_type: "audio",
+      });
       setResult(data);
-      const activeModule = data.modules[data.active_phase];
-      setIncidentLog((current) => [
-        {
-          id: Date.now(),
-          phase: data.active_phase,
-          severity: activeModule.severity,
-          score: activeModule.score,
-          summary: data.module_explanations[data.active_phase]
-        },
-        ...current
-      ].slice(0, 6));
+      setScanDuration(((performance.now() - start) / 1000).toFixed(1));
+      setScanComplete(true);
+      window.setTimeout(() => setScanComplete(false), 800);
     } finally {
       setLoading(false);
     }
   }
 
   return (
-    <div className="page-shell">
-      <section className="hero">
-        <p className="eyebrow">IndiaHackathon 2026</p>
-        <h1>CyberLens Build-by-Phase Demo</h1>
-        <p className="subtitle">
-          Each model now runs separately. Select one phase, test it in isolation, and compare suspicious vs legitimate inputs clearly.
-        </p>
+    <main className="page-shell scanner-page">
+      <section className="scanner-shell">
+        <InputPanel onScan={handleScan} loading={loading} />
+        <ResultCard result={result} scanDuration={scanDuration} />
       </section>
-      <section className="panel roadmap-panel">
-        <h2>Project Roadmap</h2>
-        <div className="phase-roadmap">
-          {roadmap.phases.map((phase, index) => (
-            <div key={phase} className="roadmap-step">
-              <span className="roadmap-index">{index + 1}</span>
-              <span>{phase}</span>
-            </div>
-          ))}
-        </div>
-        <p className="roadmap-note">Demo order: {roadmap.demo_order.join(" -> ")}</p>
-      </section>
-      {activePhase === "email" ? <PhishingPhaseGuide emailResult={result.modules?.email} /> : null}
-      {activePhase === "url" ? <UrlPhaseGuide urlResult={result.modules?.url} /> : null}
-      <div className="content-grid">
-        <InputPanel onScan={handleScan} loading={loading} activePhase={activePhase} onPhaseChange={setActivePhase} />
-        <ResultCard result={result} activePhase={activePhase} />
-      </div>
-      <IncidentLog items={incidentLog} />
-    </div>
+    </main>
   );
 }

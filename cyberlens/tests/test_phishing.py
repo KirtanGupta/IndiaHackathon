@@ -19,6 +19,13 @@ def test_strong_fraud_email_scores_high():
     assert result["severity"] == "high"
 
 
+def test_prize_and_card_detail_bait_scores_medium_or_higher():
+    result = score_email('You have won a prize verify card details now')
+    assert result["label"] == "phishing"
+    assert result["score"] >= 40
+    assert result["severity"] in {"medium", "high"}
+
+
 def test_email_phase_does_not_include_other_models():
     result = compute_phase_scan(
         "Weekly update for the project meeting tomorrow.",

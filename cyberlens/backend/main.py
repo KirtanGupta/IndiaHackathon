@@ -54,6 +54,7 @@ def scan(payload: ScanRequest) -> dict:
         **result,
         "explanation": explanation["overall"],
         "module_explanations": explanation["modules"],
+        "module_reasoning": explanation["reasoning"],
         "signals": {
             "email_length": len(payload.email_text),
             "url_present": bool(payload.url),
